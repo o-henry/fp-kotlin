@@ -17,7 +17,8 @@ public class ch03 {
 
     private static List<String> replan(List<String> plan, String newCity, String beforeCity) {
         int newCityIndex = plan.indexOf(beforeCity);
-        plan.add(newCityIndex, newCity);
-        return plan;
+        List<String> replanned = new ArrayList<>(plan);
+        replanned.add(newCityIndex, newCity);
+        return replanned;
     }
 }

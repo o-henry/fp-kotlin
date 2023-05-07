@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.8 : Add test code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03.java" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="immutable-values.0 : Base replan method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683443671332</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="immutable-values.0 : Base replan method">
+      <created>1683445776763</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683445776763</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +312,8 @@
     <MESSAGE value="pure-function.6 : Add comment" />
     <MESSAGE value="pure-function.7 : Convert java to kotlin" />
     <MESSAGE value="pure-function.8 : Add test code" />
-    <option name="LAST_COMMIT_MESSAGE" value="pure-function.8 : Add test code" />
+    <MESSAGE value="immutable-values.0 : Base replan method" />
+    <option name="LAST_COMMIT_MESSAGE" value="immutable-values.0 : Base replan method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
