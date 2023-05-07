@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.1 : Passing copies of the data">
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.2 : Recalculating instead of storing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02.java" afterDir="false" />
     </list>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683429110798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pure-function.2 : Recalculating instead of storing">
+      <created>1683429557829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683429557829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +158,8 @@
     <MESSAGE value="add : http.controller.0" />
     <MESSAGE value="pure-function.0 : Base shopping cart" />
     <MESSAGE value="pure-function.1 : Passing copies of the data" />
-    <option name="LAST_COMMIT_MESSAGE" value="pure-function.1 : Passing copies of the data" />
+    <MESSAGE value="pure-function.2 : Recalculating instead of storing" />
+    <option name="LAST_COMMIT_MESSAGE" value="pure-function.2 : Recalculating instead of storing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ch02 {
-    public class ShoppingCart {
+    public static class ShoppingCart {
         private List<String> items = new ArrayList<>();
         // private boolean bookAdded = false - removing the state
 
@@ -12,7 +12,7 @@ public class ch02 {
             items.add(item);
         }
 
-        public int getDiscountPercentage() {
+        public static int getDiscountPercentage(List<String> items) {
             if (items.contains("Book")) {
                 return 5;
             } else {
@@ -31,12 +31,11 @@ public class ch02 {
 
 
     public void main(String[] args) {
-        ShoppingCart cart = new ShoppingCart();
-        cart.addItem("Apple");
-        System.out.println(cart.getDiscountPercentage());
+        List<String> items = new ArrayList<>();
+        items.add("Apple");
+        System.out.println(ShoppingCart.getDiscountPercentage(items));
 
-        cart.addItem("Book");
-        System.out.println(cart.getDiscountPercentage());
-
+        items.add("Book");
+        System.out.println(ShoppingCart.getDiscountPercentage(items));
     }
 }
