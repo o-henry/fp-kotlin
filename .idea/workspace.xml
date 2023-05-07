@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.7 : Convert java to kotlin">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch02_2.kt" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.8 : Add test code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -273,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683442663127</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="pure-function.8 : Add test code">
+      <created>1683443671332</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683443671332</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +304,8 @@
     <MESSAGE value="pure-function.5 : Imperative to functional" />
     <MESSAGE value="pure-function.6 : Add comment" />
     <MESSAGE value="pure-function.7 : Convert java to kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="pure-function.7 : Convert java to kotlin" />
+    <MESSAGE value="pure-function.8 : Add test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="pure-function.8 : Add test code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
