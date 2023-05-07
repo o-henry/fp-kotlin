@@ -24,7 +24,14 @@ public class ch02 {
         }
 
         public List<String> getItems() {
-            return items;
+            return new ArrayList<>(items);
+        }
+
+        public void removeItem(String item) {
+            items.remove(item);
+            if(item.equals("Book")) {
+                bookAdded = false;
+            }
         }
     }
 

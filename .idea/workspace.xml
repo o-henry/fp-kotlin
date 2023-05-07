@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="add : http.controller.0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch01.java" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.0 : Base shopping cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fromobjtofun/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fromobjtofun/skeleton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fromobjtofun/spike.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683370582600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pure-function.0 : Base shopping cart">
+      <created>1683428838261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683428838261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,7 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add : http.controller.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="add : http.controller.0" />
+    <MESSAGE value="pure-function.0 : Base shopping cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="pure-function.0 : Base shopping cart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
