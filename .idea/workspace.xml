@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.5 : Imperative to functional">
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="pure-function.7 : Convert java to kotlin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch02.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ch01">
+  <component name="RunManager" selected="Kotlin.Ch02Kt">
     <configuration name="ch01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="grokkingfp.ch01" />
       <module name="fp-kotlin.main" />
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch4.sec1.ListingKt" />
+    <configuration name="Ch02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp.Ch02Kt" />
       <module name="fp-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Ch02Kt" />
         <item itemvalue="Application.ch01" />
         <item itemvalue="Kotlin._6Kt" />
         <item itemvalue="Kotlin.SpikeKt" />
         <item itemvalue="Kotlin.SkeletonKt" />
-        <item itemvalue="Kotlin.ListingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683432654003</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pure-function.6 : Add comment">
+      <created>1683432827848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683432827848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pure-function.7 : Convert java to kotlin">
+      <created>1683440577905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683440577905</updated>
+    </task>
+    <task id="LOCAL-00010" summary="pure-function.7 : Convert java to kotlin">
+      <created>1683442323387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683442323387</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +204,9 @@
     <MESSAGE value="pure-function.3 : public to static" />
     <MESSAGE value="pure-function.4 : Base tip calculator" />
     <MESSAGE value="pure-function.5 : Imperative to functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="pure-function.5 : Imperative to functional" />
+    <MESSAGE value="pure-function.6 : Add comment" />
+    <MESSAGE value="pure-function.7 : Convert java to kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="pure-function.7 : Convert java to kotlin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

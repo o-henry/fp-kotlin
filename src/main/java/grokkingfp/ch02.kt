@@ -1,41 +1,32 @@
-package grokkingfp;
+package grokkingfp
 
-import java.util.ArrayList;
-import java.util.List;
+class ch02 {
+    class ShoppingCart(
+        private val items: List<String> = emptyList()
+    ) {
 
-public class ch02 {
-    public static class ShoppingCart {
-        private List<String> items = new ArrayList<>();
         // private boolean bookAdded = false - removing the state
+        fun addItem(items: List<String>, item: String): List<String> = items.plus(item)
 
-        public void addItem(String item) {
-            items.add(item);
-        }
+        fun getItems(): List<String> = ArrayList(items)
 
-        public static int getDiscountPercentage(List<String> items) {
-            if (items.contains("Book")) {
-                return 5;
-            } else {
-                return 0;
-            }
-        }
+        fun removeItem(items: List<String>, item: String): List<String> = items.minus(item)
 
-        public List<String> getItems() {
-            return new ArrayList<>(items);
-        }
-
-        public void removeItem(String item) {
-            items.remove(item);
+        companion object {
+            fun getDiscountPercentage(items: List<String>): Int =
+                if (items.contains("Book")) {
+                    5
+                } else {
+                    0
+                }
         }
     }
 
 
-    public void main(String[] args) {
-        List<String> items = new ArrayList<>();
-        items.add("Apple");
-        System.out.println(ShoppingCart.getDiscountPercentage(items));
+}
 
-        items.add("Book");
-        System.out.println(ShoppingCart.getDiscountPercentage(items));
-    }
+fun main(args: Array<String>) {
+    println(ch02.ShoppingCart.getDiscountPercentage(listOf("Apple")))
+
+    println(ch02.ShoppingCart.getDiscountPercentage(listOf("Apple", "Book")))
 }
