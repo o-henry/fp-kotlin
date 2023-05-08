@@ -1,3 +1,5 @@
+package grokkingfp
+
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
