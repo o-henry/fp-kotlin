@@ -27,16 +27,16 @@ public class ch04 {
         }
     };
 
-    static List<String> rankedWords(List<String> words) {
+    static List<String> rankedWords(Comparator<String> comparator, List<String> words) {
         return words.stream()
-                .sorted(scoreComparator)
+                .sorted(comparator)
                 .collect(Collectors.toList());
     }
 
     @Test
     void scored_letter() {
         List<String> words = Arrays.asList("ada", "haskell", "kotlin", "java", "rust");
-        List<String> ranking = rankedWords(words);
+        List<String> ranking = rankedWords(scoreComparator, words);
         assertEquals(ranking, Arrays.asList("haskell", "kotlin", "rust", "java", "ada"));
     }
 }
