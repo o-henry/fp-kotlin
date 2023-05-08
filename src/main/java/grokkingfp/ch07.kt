@@ -8,17 +8,21 @@ package grokkingfp
  */
 
 
-object model {
-    // inline class
-    inline class Genre(val value: String) {
+object _model {
+    @JvmInline
+    value class Genre(val value: String) {
         val name: String
             get() = value
     }
 
-    inline class YearsActiveStart(val value: Int)
-    inline class YearsActiveEnd(val value: Int)
+    @JvmInline
+    value class YearsActiveStart(val value: Int)
 
-    inline class Location(val value: String) {
+    @JvmInline
+    value class YearsActiveEnd(val value: Int)
+
+    @JvmInline
+    value class Location(val value: String) {
         val name: String
             get() = value
         // fun name(): String = value
@@ -72,6 +76,13 @@ object model {
 }
 
 fun main() {
-    val us: model.Location = model.Location("U.S.")
+    val us: _model.Location = _model.Location("U.S.")
 }
+
+// kotiln version opaque type
+@JvmInline
+value class Meter(val value: Double) {
+    fun toCentimeter(): Double = value * 100
+}
+
 
