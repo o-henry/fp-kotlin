@@ -41,6 +41,8 @@ fun main() {
         listOf(Song(fooFighters, "My Hero"), Song(Artist("Iron Maiden"), "The Trooper"))
     )
 
+    // It should return some songs from given playlists, namely, songs performed by the artist from user-based playlists plus all songs
+    // from artist-based playlists plus all songs from genre-based playlists.
     fun gatherSongs(playlists: List<Playlist>, artist: Artist, genre: MusicGenre): List<Song> =
         playlists.fold(emptyList()) { songs, playlist ->
             val matchingSongs = when (val kind = playlist.kind) {

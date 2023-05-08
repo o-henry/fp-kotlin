@@ -15,6 +15,7 @@ object model {
 
     @JvmInline
     value class Artist(val name: String)
+    
     data class Song(val artist: Artist, val title: String)
 
     enum class MusicGenre {
