@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="immutable-values.4 : Exercise">
-      <change afterPath="$PROJECT_DIR$/src/test/java/grokkingfp/ch04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch02_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/grokkingfp/ch02_2.kt" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="function-as-values.0 : Base ranking words">
+      <change beforePath="$PROJECT_DIR$/src/test/java/grokkingfp/ch04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/grokkingfp/ch04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683518415458</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="function-as-values.0 : Base ranking words">
+      <created>1683523245155</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683523245155</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,7 +348,8 @@
     <MESSAGE value="immutable-values.2 : Add mutable example" />
     <MESSAGE value="immutable-values.3 : Mutability to Immutability" />
     <MESSAGE value="immutable-values.4 : Exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="immutable-values.4 : Exercise" />
+    <MESSAGE value="function-as-values.0 : Base ranking words" />
+    <option name="LAST_COMMIT_MESSAGE" value="function-as-values.0 : Base ranking words" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

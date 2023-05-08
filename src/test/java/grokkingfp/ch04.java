@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -27,8 +28,9 @@ public class ch04 {
     };
 
     static List<String> rankedWords(List<String> words) {
-        words.sort(scoreComparator);
-        return words;
+        return words.stream()
+                .sorted(scoreComparator)
+                .collect(Collectors.toList());
     }
 
     @Test
