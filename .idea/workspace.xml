@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="immutable-values.0 : Base replan method">
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="immutable-values.2 : Add mutable example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +287,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683445776763</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="immutable-values.1 : mutability by working with copies">
+      <created>1683446663113</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683446663113</updated>
+    </task>
+    <task id="LOCAL-00015" summary="immutable-values.2 : Add mutable example">
+      <created>1683507344301</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683507344301</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,7 +327,9 @@
     <MESSAGE value="pure-function.7 : Convert java to kotlin" />
     <MESSAGE value="pure-function.8 : Add test code" />
     <MESSAGE value="immutable-values.0 : Base replan method" />
-    <option name="LAST_COMMIT_MESSAGE" value="immutable-values.0 : Base replan method" />
+    <MESSAGE value="immutable-values.1 : Mutability by working with copies" />
+    <MESSAGE value="immutable-values.2 : Add mutable example" />
+    <option name="LAST_COMMIT_MESSAGE" value="immutable-values.2 : Add mutable example" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
