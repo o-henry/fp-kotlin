@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="immutable-values.2 : Add mutable example">
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="immutable-values.3 : Mutability to Immutability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch03_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch03_1">
+  <component name="RunManager" selected="Application.ch03_2">
     <configuration name="ch03_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="grokkingfp.ch03_1" />
       <module name="fp-kotlin.main" />
@@ -80,29 +79,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingPureFunction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TestingPureFunction&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="ch03_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp.ch03_2" />
+      <module name="fp-kotlin.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grokkingfp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestingPureFunction.get first character test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -152,37 +140,20 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TestingPureFunction.word score test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TestingPureFunction.word score test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
+    <configuration name="Ch03_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp.Ch03_2Kt" />
+      <module name="fp-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch03_2" />
+        <item itemvalue="Kotlin.Ch03_2Kt" />
         <item itemvalue="Application.ch03_1" />
         <item itemvalue="Gradle.TestingPureFunction.get first character test" />
         <item itemvalue="Gradle.TestingPureFunction.get tip percentage test" />
-        <item itemvalue="Gradle.TestingPureFunction" />
-        <item itemvalue="Gradle.TestingPureFunction.word score test" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683507555634</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="immutable-values.3 : Mutability to Immutability">
+      <created>1683508491456</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683508491456</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +313,8 @@
     <MESSAGE value="immutable-values.0 : Base replan method" />
     <MESSAGE value="immutable-values.1 : Mutability by working with copies" />
     <MESSAGE value="immutable-values.2 : Add mutable example" />
-    <option name="LAST_COMMIT_MESSAGE" value="immutable-values.2 : Add mutable example" />
+    <MESSAGE value="immutable-values.3 : Mutability to Immutability" />
+    <option name="LAST_COMMIT_MESSAGE" value="immutable-values.3 : Mutability to Immutability" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
