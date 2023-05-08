@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="function-as-values.2 : Refactoring ranking words with passing algorithms as argument">
-      <change afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch05.kt" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="requirements-as-types.0 : Base artist">
+      <change afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch07_1.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/grokkingfp/ch04_1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch07.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch07.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -68,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Ch05Kt">
+  <component name="RunManager" selected="Kotlin.Ch07Kt">
     <configuration name="RankingGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -83,30 +84,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;RankingGame&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="RankingGame.calculate letter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;RankingGame.calculate letter&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,13 +149,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ch07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp.Ch07Kt" />
+      <module name="fp-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Ch07Kt" />
         <item itemvalue="Kotlin.Ch05Kt" />
         <item itemvalue="Gradle.ch04.scored_letter" />
         <item itemvalue="Gradle.ch04" />
         <item itemvalue="Gradle.RankingGame" />
-        <item itemvalue="Gradle.RankingGame.calculate letter" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +329,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683523400916</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="sequential-programs.0 : Base books chaining">
+      <created>1683529430489</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683529430489</updated>
+    </task>
+    <task id="LOCAL-00024" summary="sequential-programs.0 : Base books chaining">
+      <created>1683532642371</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683532642371</updated>
+    </task>
+    <task id="LOCAL-00025" summary="requirements-as-types.0 : Base artist">
+      <created>1683533874476</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683533874476</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +383,9 @@
     <MESSAGE value="function-as-values.0 : Base ranking words" />
     <MESSAGE value="function-as-values.1 : Refactoring ranking words with stream" />
     <MESSAGE value="function-as-values.2 : Refactoring ranking words with passing algorithms as argument" />
-    <option name="LAST_COMMIT_MESSAGE" value="function-as-values.2 : Refactoring ranking words with passing algorithms as argument" />
+    <MESSAGE value="sequential-programs.0 : Base books chaining" />
+    <MESSAGE value="requirements-as-types.0 : Base artist" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements-as-types.0 : Base artist" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
