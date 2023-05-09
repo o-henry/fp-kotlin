@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="requirements-as-types.3 : Solution">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch11_1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch11_2.kt" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="implementation.0 : Base">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/ch13/13.1.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/grokkingfp/ch04_1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,18 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/grokkingfp" />
@@ -377,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683556405648</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="implementation.0 : Base">
+      <created>1683608008874</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1683608008874</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +421,8 @@
     <MESSAGE value="requirements-as-types.1 : Add opaque type(newtype)" />
     <MESSAGE value="requirements-as-types.2 : Exercise" />
     <MESSAGE value="requirements-as-types.3 : Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements-as-types.3 : Solution" />
+    <MESSAGE value="implementation.0 : Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation.0 : Base" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
