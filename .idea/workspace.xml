@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="i/o.0 : A simple program that has side effects">
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="I/O.2 : Extracting a third function">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/ch13/13.2.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/grokkingfp/ch04_1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/ch13/13.1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/ch13/13.1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683625087874</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="I/O.1 : Refactoring to separate the logic and console effect">
+      <created>1683625522255</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1683625522255</updated>
+    </task>
+    <task id="LOCAL-00032" summary="I/O.2 : Extracting a third function">
+      <created>1683625938881</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683625938881</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,8 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add : http.controller.0" />
-    <MESSAGE value="pure-function.0 : Base shopping cart" />
     <MESSAGE value="pure-function.1 : Passing copies of the data" />
     <MESSAGE value="pure-function.2 : Recalculating instead of storing" />
     <MESSAGE value="pure-function.3 : public to static" />
@@ -430,8 +441,10 @@
     <MESSAGE value="requirements-as-types.2 : Exercise" />
     <MESSAGE value="requirements-as-types.3 : Solution" />
     <MESSAGE value="implementation.0 : Base" />
-    <MESSAGE value="i/o.0 : A simple program that has side effects" />
-    <option name="LAST_COMMIT_MESSAGE" value="i/o.0 : A simple program that has side effects" />
+    <MESSAGE value="I/O.0 : A simple program that has side effects" />
+    <MESSAGE value="I/O.1 : Refactoring to separate the logic and console effect" />
+    <MESSAGE value="I/O.2 : Extracting a third function" />
+    <option name="LAST_COMMIT_MESSAGE" value="I/O.2 : Extracting a third function" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

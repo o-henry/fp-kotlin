@@ -1,0 +1,19 @@
+Index: src/test/java/grokkingfp/ch04_1.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/grokkingfp/ch04_1.kt b/src/test/java/grokkingfp/ch04_1.kt
+new file mode 100644
+--- /dev/null	(date 1683528154255)
++++ b/src/test/java/grokkingfp/ch04_1.kt	(date 1683528154255)
+@@ -0,0 +1,8 @@
++package grokkingfp
++
++val words = listOf("kotlin", "rust", "java")
++fun score(word: String): Int = word.replace("a", "").length
++
++fun main() {
++    words.sortedBy { score(it) }
++}
+\ No newline at end of file
