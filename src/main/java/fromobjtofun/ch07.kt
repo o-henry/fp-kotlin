@@ -26,6 +26,13 @@ data class Holder<T>(private val value: T) {
     }
 }
 
+/** union-type */
+sealed class Outcome<T>
+data class Success<T>(val value: T) : Outcome<T>()
+data class Failure(val errorMessage: String) : Outcome<Nothing>()
+
+fun String.asFailure(): Outcome<Nothing> = Failure(this)
+fun <T> T.asSuccess(): Outcome<T> = Success(this)
 
 fun main() {
     val a: Holder<String> = Holder("this is a string")
