@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="I/O.2 : Extracting a third function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch08.kt" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="defining-category-in-code.0 : Base">
       <change afterPath="$PROJECT_DIR$/src/test/java/grokkingfp/ch04_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fromobjtofun/ch07.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fromobjtofun/ch07.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -421,7 +418,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683629612691</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="defining-category-in-code.0 : Base">
+      <created>1683700761824</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1683700761824</updated>
+    </task>
+    <task id="LOCAL-00036" summary="defining-category-in-code.0 : Base">
+      <created>1683700771120</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683700771120</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pure-function.1 : Passing copies of the data" />
     <MESSAGE value="pure-function.2 : Recalculating instead of storing" />
     <MESSAGE value="pure-function.3 : public to static" />
     <MESSAGE value="pure-function.4 : Base tip calculator" />
@@ -473,7 +483,8 @@
     <MESSAGE value="I/O.0 : A simple program that has side effects" />
     <MESSAGE value="I/O.1 : Refactoring to separate the logic and console effect" />
     <MESSAGE value="I/O.2 : Extracting a third function" />
-    <option name="LAST_COMMIT_MESSAGE" value="I/O.2 : Extracting a third function" />
+    <MESSAGE value="defining-category-in-code.0 : Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="defining-category-in-code.0 : Base" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
