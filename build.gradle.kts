@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.20"
+    kotlin("jvm") version "1.8.10"
 }
 
 group = "org.example"
@@ -15,10 +15,12 @@ dependencies {
     implementation("org.http4k:http4k-server-jetty")
     implementation("org.http4k:http4k-core")
     implementation("org.http4k:http4k-client-okhttp")
+    testImplementation(kotlin("test"))
     implementation("io.arrow-kt:arrow-core:1.2.0-RC")
     implementation("io.arrow-kt:arrow-fx-coroutines:1.2.0-RC")
-    testImplementation(kotlin("test"))
+
 }
+
 
 tasks.test {
     useJUnitPlatform()
