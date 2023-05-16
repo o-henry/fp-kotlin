@@ -11,6 +11,7 @@ package grokkingfp
 
 fun score(word: String): Int = word.replace("a", "").length
 fun bonus(word: String): Int = if (word.contains("c")) 5 else 0
+fun penalty(word: String): Int = if (word.contains("s")) 7 else 0
 fun rankedWords(
     wordScore: (String) -> Int,
     words: List<String>,

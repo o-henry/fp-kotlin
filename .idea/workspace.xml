@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="kodeco-fp-with-arrow.0 : Init">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/04_1.kt" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="refactoring-filename">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/kodeco/ch01/Books.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/kodeco/ch01/FunctionTypes.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/kodeco/ch01/Functions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch07_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch07_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch11_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch11_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/04.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/04_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/04_1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,31 +74,7 @@
       <recent name="grokkingfp" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._04Kt">
-    <configuration name="ch04" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;grokkingfp.ch04&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Kotlin._04_1Kt">
     <configuration name="ch04.scored_letter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,13 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_04_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp._04_1Kt" />
+      <module name="fp-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._04_1Kt" />
         <item itemvalue="Kotlin._04Kt" />
         <item itemvalue="Kotlin.Ch07_2Kt" />
         <item itemvalue="Kotlin.Ch05Kt" />
         <item itemvalue="Gradle.ch04.scored_letter" />
-        <item itemvalue="Gradle.ch04" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684129778936</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="refactoring-filename">
+      <created>1684210047228</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684210047228</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,8 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pure-function.5 : Imperative to functional" />
-    <MESSAGE value="pure-function.6 : Add comment" />
     <MESSAGE value="pure-function.7 : Convert java to kotlin" />
     <MESSAGE value="pure-function.8 : Add test code" />
     <MESSAGE value="immutable-values.0 : Base replan method" />
@@ -502,7 +483,9 @@
     <MESSAGE value="defining-category-in-code.1 : Add functor" />
     <MESSAGE value="defining-category-in-code.2 : Add functor to manage errors" />
     <MESSAGE value="kodeco-fp-with-arrow.0 : Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="kodeco-fp-with-arrow.0 : Init" />
+    <MESSAGE value="refact-file-name" />
+    <MESSAGE value="refactoring-filename" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring-filename" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
