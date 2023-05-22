@@ -13,8 +13,12 @@ object model {
     @JvmInline
     value class User(val name: String)
 
-    @JvmInline
-    value class Artist(val name: String)
+    @JvmInline // value-object
+    value class Artist(private val name: String) {
+        init {
+            require(name.length in 5..20)
+        }
+    }
     
     data class Song(val artist: Artist, val title: String)
 
