@@ -16,12 +16,22 @@ fun bookAdaptations(author: String): List<Movie> =
 
 
 fun main() {
-    val count = books.map(Book::title) // List[String], [FP in Scala, The Hobbit, Modern Java in Action]
-        .also { println(it) }.filter { it.contains("Scala") } // List[String], [FP in Scala]
-        .also { println(it) }.size // Int
+    val count =
+        books
+            .map(Book::title) // List[String], [FP in Scala, The Hobbit, Modern Java in Action]
+            .filter { it.contains("Scala") } // List[String], [FP in Scala]
+            .size // Int
 
     println(count)
 
 
-    fun recommendationFeed(books: List<Book>): Any = TODO()
+    val tolkein =
+        books
+            .flatMap(Book::authors)
+            .flatMap { bookAdaptations(it) }
+
+    println(tolkein)
+
+    
+
 }
