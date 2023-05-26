@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="value-object.0 : Add constraint">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/ch07/01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fpwithkotlin/ch09/01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/05.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="fix : file directory">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grokkingfp/ch05.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grokkingfp/ch05.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch07.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,31 +77,7 @@
       <recent name="grokkingfp" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Ch05Kt">
-    <configuration name="ch04.scored_letter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;grokkingfp.ch04.scored_letter&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Kotlin._07Kt">
     <configuration name="Ch05Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="grokkingfp.Ch05Kt" />
       <module name="fp-kotlin.main" />
@@ -131,13 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp._07Kt" />
+      <module name="fp-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._07Kt" />
         <item itemvalue="Kotlin.Ch05Kt" />
         <item itemvalue="Kotlin._04_1Kt" />
         <item itemvalue="Kotlin._04Kt" />
         <item itemvalue="Kotlin.Ch07_2Kt" />
-        <item itemvalue="Gradle.ch04.scored_letter" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684723093676</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="fix : file directory">
+      <created>1684998882980</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1684998882980</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="immutable-values.0 : Base replan method" />
     <MESSAGE value="immutable-values.1 : Mutability by working with copies" />
     <MESSAGE value="immutable-values.2 : Add mutable example" />
     <MESSAGE value="immutable-values.3 : Mutability to Immutability" />
@@ -503,7 +491,8 @@
     <MESSAGE value="refactoring-filename" />
     <MESSAGE value="function-as-values.0 : Base" />
     <MESSAGE value="value-object.0 : Add constraint" />
-    <option name="LAST_COMMIT_MESSAGE" value="value-object.0 : Add constraint" />
+    <MESSAGE value="fix : file directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : file directory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

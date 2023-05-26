@@ -49,6 +49,9 @@ fun main() {
                 is CuratedByUser -> playlist.songs.filter { it.artist == artist }
                 is BasedOnArtist -> if (kind.artist == artist) playlist.songs else emptyList()
                 is BasedOnGenres -> if (kind.genres.contains(genre)) playlist.songs else emptyList()
+                else -> {
+                    TODO("Fix it...")
+                }
             }
             songs + matchingSongs
         }
