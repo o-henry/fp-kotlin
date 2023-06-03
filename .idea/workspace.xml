@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="fix : file directory">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="requirements-as-types.4 : Update it">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/web/error_handling.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07_2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch07.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/07.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684998882980</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="requirements-as-types.4 : Update it">
+      <created>1685083057576</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1685083057576</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="immutable-values.1 : Mutability by working with copies" />
     <MESSAGE value="immutable-values.2 : Add mutable example" />
     <MESSAGE value="immutable-values.3 : Mutability to Immutability" />
     <MESSAGE value="immutable-values.4 : Exercise" />
@@ -492,7 +495,8 @@
     <MESSAGE value="function-as-values.0 : Base" />
     <MESSAGE value="value-object.0 : Add constraint" />
     <MESSAGE value="fix : file directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : file directory" />
+    <MESSAGE value="requirements-as-types.4 : Update it" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements-as-types.4 : Update it" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
