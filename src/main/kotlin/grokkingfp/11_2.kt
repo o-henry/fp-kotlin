@@ -16,9 +16,9 @@ package grokkingfp
  *  We will add support for more pop culture subjects in the future(e.g, video games).
  */
 
-data class Attraction(val name: String, val description: String?, val location: Location) {}
+data class Attraction(val name: String, val description: String?, val location: _Location) {}
 
-data class Location(val id: LocationId)
+data class _Location(val id: LocationId)
 
 @JvmInline
 value class LocationId(val value: String)

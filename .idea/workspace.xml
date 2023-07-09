@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="requirements-as-types.4 : Update it">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/web/error_handling.kt" afterDir="false" />
+    <list default="true" id="5a7f2d8f-8836-4bc7-85c1-a4f6ec926b89" name="Changes" comment="error-handling.0 : init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/web/fsharp.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/11_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch02_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grokkingfp/ch02_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -74,30 +77,42 @@
       <recent name="grokkingfp" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._07Kt">
+  <component name="RunManager" selected="Application.ch02_1">
+    <configuration name="ch02_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp.ch02_1" />
+      <module name="fp-kotlin.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grokkingfp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch02_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp.ch02_1" />
+      <module name="fp-kotlin.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grokkingfp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grokkingfp.Ch02Kt" />
+      <module name="fp-kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ch05Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="grokkingfp.Ch05Kt" />
-      <module name="fp-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ch07_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch07_2Kt" />
-      <module name="fp-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_04Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grokkingfp._04Kt" />
-      <module name="fp-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_04_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grokkingfp._04_1Kt" />
       <module name="fp-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +127,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch02_1" />
+        <item itemvalue="Kotlin.Ch02Kt" />
         <item itemvalue="Kotlin._07Kt" />
         <item itemvalue="Kotlin.Ch05Kt" />
-        <item itemvalue="Kotlin._04_1Kt" />
-        <item itemvalue="Kotlin._04Kt" />
-        <item itemvalue="Kotlin.Ch07_2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685083057576</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="error-handling.0 : init">
+      <created>1685779014155</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1685779014156</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="immutable-values.2 : Add mutable example" />
     <MESSAGE value="immutable-values.3 : Mutability to Immutability" />
     <MESSAGE value="immutable-values.4 : Exercise" />
     <MESSAGE value="function-as-values.0 : Base ranking words" />
@@ -496,7 +516,8 @@
     <MESSAGE value="value-object.0 : Add constraint" />
     <MESSAGE value="fix : file directory" />
     <MESSAGE value="requirements-as-types.4 : Update it" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements-as-types.4 : Update it" />
+    <MESSAGE value="error-handling.0 : init" />
+    <option name="LAST_COMMIT_MESSAGE" value="error-handling.0 : init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
